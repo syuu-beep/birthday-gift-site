@@ -1,0 +1,136 @@
+body {
+    font-family: "Happy Monkey", system-ui;
+    text-align: center;
+    background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3dkeHdnMzU1NzdvcTNwcDh5b2FsZzR6dWY0bDR3c2cxNzN0OW1rNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ov9jJuT2pEVMRMas0/giphy.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+#bff-img {
+    border-radius: 50%;
+    width: 200px;
+    border: 6px solid #ffffff;
+    margin-bottom: 10px;
+}
+
+h1, h2, h4 {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+#bday-date,
+#bday-age {
+    background: #ffffff;
+    padding: 4px 10px;
+    border-radius: 8px;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    font-weight: bold;
+}
+
+#header {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#header h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    margin-bottom: 15px;
+}
+
+.gift-img {
+    margin: 0 auto;
+    width: min(400px, 90%);
+    aspect-ratio: 1/1;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s ease-in-out, transform 0.3s ease;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.margin-title {
+    margin-bottom: 10px;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/happy.gif");
+    transform: scale(1.03);
+}
+
+#gift-img-hot:hover {
+    background-image: url("images/hot.gif");
+    transform: scale(1.03);
+}
+
+#gift-img-treasure:hover {
+    background-image: url("images/treasure.gif");
+    transform: scale(1.03);
+}
+
+#gift-img-badass:hover {
+    background-image: url("images/badass.gif");
+    transform: scale(1.03);
+}
+
+#gift-img-reason:hover {
+    background-image: url("images/asahi-happy.gif");
+    transform: scale(1.03);
+}
+
+#gift-img-special:hover {
+    background-image: url("images/priceless.gif");
+    transform: scale(1.03);
+}
+
+#gift-img-love:hover {
+    background-image: url("images/love.gif");
+    transform: scale(1.03);
+}
+
+#footer{
+    background: rgba(255, 255, 255, 0.8);
+    padding: 25px;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 90%;
+    font-size: 1rem;
+    max-width: 900px;
+    margin: 40px auto 20px;
+    opacity: 0.8;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
